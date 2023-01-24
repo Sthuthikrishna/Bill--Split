@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #E3ACF9;
+    padding: 50px;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.head {
+    text-align: center;
+    font-size: 24px;
+    color: #A31ACB;
+
+}
+.page {
+    background-color: white;
+    margin-left: 200px;
+    padding: 50px;
+    width: 818px;
+    height: 425px;
+    left: 229px;
+    top: 225px;
+    font-size: 14px;
+    color: #A31ACB;
+    display: flex;
+    border-radius: 21px;
+    box-shadow: rgb(173, 167, 167) 1px 3px 3px 3px;
+
+}
+.result {
+    background-color: #9C60FF;
+    width: 367px;
+    height: 370px;
+    margin: 45px;
+    position: absolute;
+    left: 654px;
+    border-radius: 11px;
+    padding-left: 20px;
+    box-shadow: rgb(199, 144, 196) 1px 1px 2px 2px;
+
+    
+}
+.bill i{
+    position: absolute;
+    margin: 20px;
+    
+}
+.bill input {
+    width: 337px;
+    height: 43px;
+    background-color: #e1d2fa;
+    border: 1px solid #54016d;
+    border-radius: 5px;
+    text-align: right;
+    
+}
+.percentage button {
+    width: 100px;
+    height: 42px;
+    font-size: 20px;
+    color: white;
+    background-color: #9C60FF;
+    padding: 3px;
+    margin: 5px;
+    border: 2px solid #54016d;
+    border-radius: 5px;
+}
+h2 {
+    padding-top: 15px;
+}
+.people {
+    display: flex;
+    
+}
+.people i {
+    position: absolute;
+    margin: 15px;
+    font-size: 14px;
+}
+.people input {
+    width: 337px;
+    height: 43px;
+    background-color: #e1d2fa;
+    border: 1px solid #54016d;
+    border-radius: 5px;
+}
+.btn {
+    margin-left: -150px;
+    gap: none;
+
+}
+.btn button,span {
+    width: 40px;
+    height: 43px;
+    color: white;
+    background-color: #9C60FF;
+    font-size: 20px; 
+    border: 1px solid #54016d ; 
+    border-radius: 3px; 
+}
+#count {
+    padding: 10px 20px;
+    width: 40px;
+}
+.tip, .total-amnt {
+    margin: 50px 10px;
+    color: white;
+
+}
+.tip-amount, .total {
+    font-size: 24px;
+
+}
+.tip .amount1, .amount2 {
+    margin-right: 10px;
+    font-size: 30px;
+    padding-left: 130px;
+    
+}
+.total-amnt .amount {
+    margin-right: 10px;
+    font-size: 30px;
+    padding-left: 200px;
+    
+}
+.generate {
+    
+    text-align: center;
+}
+.generate  {
+    width: 295px;
+    height: 43px;
+    background-color: #e1d2fa;
+    border: 1px solid #54016d;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: #A31ACB;
+    justify-content: center;
+
+}

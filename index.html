@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Spill</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="head">Bill Spill</h1>
+    <div class="page">
+    <div class="main">
+        <div class="bill">
+            <h2>Bill</h2>
+            <i class="fa fa-inr"></i>
+            <input type="number" id="actualBill" placeholder="0">
+        </div>
+        
+        <div class="percentage">
+            <h2>Select Tip %</h2>
+            <button class="tipperc" value="5">5%</button>
+            <button class="tipperc" value="10">10%</button>
+            <button class="tipperc" value="15">15%</button>
+            <br>
+            <button class="tipperc" value="25">25%</button>
+            <button class="tipperc" value="50">50%</button>
+            <button class="tipperc" value="75">75%</button>
+        </div>
+     <div class="prsn">
+        <h2>Number of People</h2>
+        <div class="people">
+            <i class="fa fa-user"></i>
+            <input class="person" type="number">
+        <div class="btn">
+            <button class="increase">+</button>
+            <span id="count">0</span>
+            <button class="decrease">-</button>
+        </div>
+        </div>
+
+
+     </div>
+
+    </div>
+    <div class="result">
+        <div class="tip">
+            <span class="tip-amount">Tip Amount</span>
+            <span class="amount1">₹ 0.00</span>
+            <br>
+            <span class="prsn">/Person</span>
+        </div>
+        <div class="total-amnt">
+            <span class="total">Total</span>
+            <span class="amount2">₹ 0.00</span>
+            <br>
+            <span class="prsn">/Person</span>
+
+        </div>
+        <div>
+            <button class="generate">GENERATE</button>
+        </div>
+</div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
